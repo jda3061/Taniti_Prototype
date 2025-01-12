@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #86d8f4;
+}
+
+#home-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.home-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+#header-links-container {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+
+#header-links-container>a:hover {
+    text-decoration: underline;
+}
+
+#header-image-container {
+    position: relative;
+    text-align: center;
+}
+
+
+#header-slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(116, 200, 236);
+    font-size: 32px;
+    font-family: cream;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.page-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin: 3rem .5rem;
+}
+
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
+.page-image-container>img,
+.page-image-container>p {
+    width: min(500px, 100%);
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: #86d8f4;
+    text-align: center;
+}
+
+header {
+    background: #86d8f4;
+}
+
+
+li {
+    padding: .5rem 0;
+}
+
+#faq {
+    padding: 5rem 2rem;
+}
+
+.centered-header {
+    text-align: center;
+}
+
+#homeslogan {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(5, 164, 217)
+}
+
+
+table.stay {
+    margin-left: 100px;
+
+}
+
+.faq {
+    margin-left: 100px;
+}
+
+td {
+    padding-bottom: 5em;
+}
+
+table {
+    font-size: 20px;
+}
